@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.container {
+  height: 100vh;
+  font-family: 'Sacramento', cursive;
+  font-size: 10rem;
+  color: #fff;
+  background: linear-gradient(to right bottom, #15385a, #521335);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 700px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 30%;
+  }
+}
+
+@media (max-width: 300px) {
+  html {
+    font-size: 20%;
+  }
+
+  span {
+    visibility: hidden;
+  }
+}
