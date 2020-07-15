@@ -14,7 +14,6 @@ html {
 .container {
   height: 100vh;
   font-family: 'Sacramento', cursive;
-  /* font-family: 'Zhi Mang Xing', cursive; */
   font-size: 10rem;
   color: #fff;
   background: linear-gradient(to right bottom, #15385a, #521335);
